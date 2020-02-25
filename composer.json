@@ -4,10 +4,12 @@
     "description": "Integration of the zvermafia/transliteration with Laravel",
     "keywords": [
         "transliterator",
+        "transliteration",
         "uzbek",
         "library",
         "package",
-        "api"
+        "api",
+        "laravel"
     ],
     "homepage": "https://github.com/zvermafia/transliteration-laravel",
     "license": "MIT",
