@@ -35,7 +35,7 @@ class TransliteratorServiceProvider extends ServiceProvider
         $this->app->singleton(TransliteratorInterface::class, function () {
             $class = $this->getTransliteratorClass();
 
-            return new {$class}();
+            return new $class();
         });
 
         $this->app->alias(TransliteratorInterface::class, self::SERVICE_NAME);
